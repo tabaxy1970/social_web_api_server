@@ -1,0 +1,66 @@
+[
+    {
+        "name": "phalcon/zephir",
+        "version": "0.10.9",
+        "version_normalized": "0.10.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phalcon/zephir.git",
+            "reference": "19e935bdbeeef42043810c4066d374902101e5df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phalcon/zephir/zipball/19e935bdbeeef42043810c4066d374902101e5df",
+            "reference": "19e935bdbeeef42043810c4066d374902101e5df",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-hash": "*",
+            "ext-json": "*",
+            "ext-xml": "*",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-gmp": "*",
+            "ext-pdo": "*",
+            "ext-pdo_sqlite": "*",
+            "phpunit/phpunit": "^4.8",
+            "squizlabs/php_codesniffer": "^3.2"
+        },
+        "time": "2018-04-30T06:35:22+00:00",
+        "bin": [
+            "bin/zephir"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zephir\\": "Library"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/phalcon/zephir/graphs/contributors"
+            },
+            {
+                "name": "Zephir Team",
+                "email": "team@zephir-lang.com",
+                "homepage": "https://zephir-lang.com/"
+            }
+        ],
+        "description": "Zephir is a compiled high level language aimed to the creation of C-extensions for PHP",
+        "homepage": "https://zephir-lang.com/",
+        "keywords": [
+            "extension",
+            "internals",
+            "phalcon",
+            "zephir"
+        ]
+    }
+]
