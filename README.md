@@ -1,0 +1,2 @@
+# social_web_api_server
+高負荷に耐えられるソシャゲサーバー構築
