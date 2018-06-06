@@ -116,6 +116,7 @@ mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' IDENTIFIED BY 'passwd';
 
 * サーバーの自動起動設定（サーバー起動はのちほど）
 ```bash
+# chkconfig mysqld on
 # chkconfig memcached on
 # chkconfig redis on
 # chkconfig php-fpm on
