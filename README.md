@@ -180,8 +180,10 @@ $ mysql -u user -ppasswd shard2 < shard.sql
 # setenforce 0
 ```
 * selinuxが再起動時に復活するので
+```bash
 * # vi /etc/selinux/config 
 * SELINUX=disabled
+```
 * にする。
 
 ## 動作確認
